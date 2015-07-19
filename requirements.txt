@@ -1,0 +1,15 @@
+#django
+django
+django-registration-redux
+
+#pulsar things
+pulsar
+setproctitle
+ujson
+
+#databases
+psycopg2
+asyncio-redis
+
+#webpack
+django-webpack-loader
