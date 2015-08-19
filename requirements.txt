@@ -10,6 +10,3 @@ ujson
 #databases
 psycopg2
 asyncio-redis
-
-#webpack
-django-webpack-loader

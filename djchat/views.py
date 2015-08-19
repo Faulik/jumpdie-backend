@@ -110,7 +110,7 @@ class Chat(ws.WS):
 class middleware(object):
     '''Django middleware for serving the Chat websocket.'''
     def __init__(self):
-        self._web_socket = ws.WebSocket('/message', Chat())
+        self._web_socket = ws.WebSocket('/ws/message', Chat())
 
     def process_request(self, request):
         from django.http import HttpResponse

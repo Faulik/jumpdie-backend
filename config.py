@@ -6,6 +6,10 @@ data_store = 'redis://0.0.0.0:6379/1'
 
 bind = '0.0.0.0:8060'
 
+debug = True
+noisy = True
+loglevel = ['debug']
+
 reload = True
 
 thread_workers = 10

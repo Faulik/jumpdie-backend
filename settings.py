@@ -39,8 +39,7 @@ INSTALLED_APPS = (
     'pulsar.apps.pulse',
     'djchat',
     'game',
-    'registration',
-    'webpack_loader'
+    'registration'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -97,13 +96,6 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static/")
 )
-# Webpack-loader
-# https://github.com/owais/django-webpack-loader/
-
-WEBPACK_LOADER = {
-    'BUNDLE_DIR_NAME': '__build__/',
-    'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json')
-}
 
 #Registration
 ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window; you may, of course, use a different value.
